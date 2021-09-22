@@ -1,0 +1,1 @@
+ select "State/UTs" from covid where "Total Cases" > 100000 group by "Death Ratio (%)" order by "Death Ratio (%)"asc;

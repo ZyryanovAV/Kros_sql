@@ -1,0 +1,1 @@
+select "State/UTs" from covid where Deaths > 5000;

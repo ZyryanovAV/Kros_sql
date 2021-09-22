@@ -1,0 +1,1 @@
+select count("Total Cases") from covid where "Total Cases" > 500000;

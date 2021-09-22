@@ -1,0 +1,1 @@
+select 'В ' || count("State/UTs") || '-ой стране у большенства людей болезнь протекает бессимптомно' from covid where "Active" < "Discharged";
